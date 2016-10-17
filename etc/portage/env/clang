@@ -1,0 +1,16 @@
+CC="${MCES_DISTCC} clang "
+CXX="${MCES_DISTCC} clang++ "
+CFLAGS="-O2 -pipe -DLDAP_DEPRECATED "
+CXXFLAGS="${CFLAGS} "
+
+export CFLAGS="${CFLAGS}"
+export CXXFLAGS="${CXXFLAGS}"
+
+# multi compiler emerge system
+MCES_CC=clang
+MCES_CXX=clang++
+MCES_CC_FLAGS="${CFLAGS}"
+MCES_CXX_FLAGS="${CXXFLAGS}"
+
+export QMAKE_CC="${CC}"
+export QMAKE_CXX="${CXX}"

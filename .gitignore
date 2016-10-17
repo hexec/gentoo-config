@@ -1,0 +1,9 @@
+/*
+
+!.gitignore
+
+!etc/
+etc/*
+
+!etc/portage/
+etc/portage/savedconfig/

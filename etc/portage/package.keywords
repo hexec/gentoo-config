@@ -1,0 +1,4 @@
+sys-devel/gcc **
+=x11-themes/evopop-gtk-theme-9999 **
+www-client/chromium -~amd64
+www-plugins/chrome-binary-plugins -~amd64
