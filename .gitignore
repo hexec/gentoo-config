@@ -4,6 +4,7 @@
 
 !etc/
 etc/*
+!etc/sysctl.conf
 
 !etc/portage/
 etc/portage/savedconfig/
