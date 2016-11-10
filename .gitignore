@@ -17,6 +17,10 @@ etc/*
 etc/ssh/*
 !etc/ssh/sshd_config.bak
 
+!etc/samba/
+etc/samba/*
+!etc/samba/smb.conf.bak
+
 !etc/portage/
 etc/portage/savedconfig/
 
