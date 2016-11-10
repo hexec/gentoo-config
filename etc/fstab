@@ -1,0 +1,11 @@
+# <fs>             <mountpoint> <type>     <opts>             <dump/pass>
+/dev/sda1               /boot   ext2       noauto,noatime,discard     0 2
+/dev/sda2               /       ext4       defaults,discard,noatime   0 1
+/dev/sda4               none    swap       sw,nofail          0 0
+#shm                     /dev/shm  tmpfs    nodev,nosuid,noexec
+UUID=577a66db-c609-40d9-8a5a-4ef818b57f30 /home/paradox/Downloads ext4 defaults,nofail 0 1
+#/dev/mapper/enc         /mnt/enc ext4      defaults,nofail    0 0
+#/home/paradox/Downloads/shared /export/shared none bind 0 0
+#/dev/zram0             swap    swap       pri=16383         0 0
+#/dev/zram1             swap    swap       pri=16383         0 0
+#/dev/zram2             /tmp    ext4       defaults          0 0

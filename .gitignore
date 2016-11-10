@@ -5,6 +5,12 @@
 !etc/
 etc/*
 !etc/sysctl.conf
+!etc/vconsole.conf
+!etc/fstab
+!etc/locale.conf
+!etc/os-release
+
+!etc/default/
 
 !etc/portage/
 etc/portage/savedconfig/
