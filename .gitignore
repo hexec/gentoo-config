@@ -7,3 +7,10 @@ etc/*
 
 !etc/portage/
 etc/portage/savedconfig/
+
+!etc/udev/
+!etc/udev/rules.d/
+etc/udev/udev.conf
+etc/udev/hwdb.d
+etc/udev/hwdb.bin
+
