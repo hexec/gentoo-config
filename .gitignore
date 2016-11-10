@@ -33,3 +33,11 @@ usr/src/*
 !usr/src/linux/
 usr/src/linux/*
 !usr/src/linux/.config
+
+!var/
+var/*
+!var/lib
+var/lib/*
+!var/lib/portage
+var/lib/portage/*
+!var/lib/portage/world
