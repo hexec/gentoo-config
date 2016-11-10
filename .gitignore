@@ -9,8 +9,13 @@ etc/*
 !etc/fstab
 !etc/locale.conf
 !etc/os-release
+!etc/environment
 
 !etc/default/
+
+!etc/ssh/
+etc/ssh/*
+!etc/ssh/sshd_config.bak
 
 !etc/portage/
 etc/portage/savedconfig/
@@ -21,3 +26,10 @@ etc/udev/udev.conf
 etc/udev/hwdb.d
 etc/udev/hwdb.bin
 
+!usr/
+usr/*
+!usr/src/
+usr/src/*
+!usr/src/linux/
+usr/src/linux/*
+!usr/src/linux/.config
