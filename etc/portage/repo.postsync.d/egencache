@@ -5,15 +5,14 @@ repository_path=${3}
 
 ret=0
 
-if [ -n "${repository_name}" ]; then
-	echo "* In post-repository hook for ${repository_name}"
-	echo "** synced from remote repository ${sync_uri}"
-	echo "** synced into ${repository_path}"
+source /lib/gentoo/functions.sh
 
+if [ -n "${repository_name}" ]; then
+    ebegin "Generating cache for ${repository_name} repo : ${sync_uri} => ${repository_path}"
 	if [ "${repository_name}" != "gentoo" ]; then
 		if ! egencache --update --repo="${repository_name}" --jobs=4
 		then
-			echo "!!! egencache failed!"
+			ewarn "egencache failed!"
 			ret=1
 		fi
 	fi

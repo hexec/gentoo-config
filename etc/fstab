@@ -3,9 +3,9 @@
 /dev/sda2               /       ext4       defaults,discard,noatime   0 1
 /dev/sda4               none    swap       sw,nofail          0 0
 #shm                     /dev/shm  tmpfs    nodev,nosuid,noexec
-UUID=577a66db-c609-40d9-8a5a-4ef818b57f30 /home/paradox/Downloads ext4 defaults,nofail 0 1
-#/dev/mapper/enc         /mnt/enc ext4      defaults,nofail    0 0
-#/home/paradox/Downloads/shared /export/shared none bind 0 0
 #/dev/zram0             swap    swap       pri=16383         0 0
 #/dev/zram1             swap    swap       pri=16383         0 0
 #/dev/zram2             /tmp    ext4       defaults          0 0
+UUID=d8782379-42b1-49ca-9f5f-53dcd64e95d5 /mnt/livingdead auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
+UUID=7ebc1c59-846f-49ae-ac7a-f8fa3655680d /mnt/7ebc1c59-846f-49ae-ac7a-f8fa3655680d auto nosuid,nodev,nofail,noauto 0 0
+UUID=577a66db-c609-40d9-8a5a-4ef818b57f30 /home/paradox/Downloads ext4 defaults,nofail,x-gvfs-show 0 1
