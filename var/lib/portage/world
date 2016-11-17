@@ -24,6 +24,7 @@ app-text/texlive
 app-text/xournal
 dev-libs/sway
 dev-python/eyeD3
+dev-python/jsmin
 dev-python/prettytable
 dev-python/requests
 dev-python/urllib3
@@ -42,6 +43,7 @@ dev-vcs/gitg
 dev-vcs/mercurial
 games-util/steam-meta
 gnome-base/gnome-light
+gnome-extra/chrome-gnome-shell
 gnome-extra/gnome-builder
 gnome-extra/gnome-calculator
 gnome-extra/gnome-shell-extensions
@@ -54,6 +56,7 @@ media-gfx/comix
 media-gfx/eog
 media-gfx/gimp
 media-plugins/gimp-gmic
+media-plugins/gst-plugins-vpx
 media-sound/easytag
 media-video/smplayer
 media-video/vlc
@@ -65,12 +68,13 @@ net-fs/samba
 net-ftp/atftp
 net-irc/weechat
 net-libs/nodejs
+net-libs/rb_libtorrent
 net-misc/dropbox
 net-misc/openvpn
 net-misc/tor
 net-misc/youtube-dl
-net-p2p/deluge
 net-p2p/syncthing
+net-wireless/rfkill
 sci-visualization/gnuplot
 sys-apps/gnome-disk-utility
 sys-apps/mlocate

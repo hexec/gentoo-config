@@ -1,0 +1,2 @@
+KERNEL=="sd*", ENV{ID_FS_UUID}=="7ebc1c59-846f-49ae-ac7a-f8fa3655680d", ENV{ID_FS_LABEL}="enc", ENV{ID_FS_LABEL_ENC}="enc"
+

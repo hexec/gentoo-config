@@ -8,14 +8,12 @@ ret=0
 source /lib/gentoo/functions.sh
 
 if [ -n "${repository_name}" ]; then
+    test "${repository_name}" = "gnome" && exit "${ret}"
     ebegin "Generating cache for ${repository_name} repo : ${sync_uri} => ${repository_path}"
-	if [ "${repository_name}" != "gentoo" ]; then
-		if ! egencache --update --repo="${repository_name}" --jobs=4
-		then
-			ewarn "egencache failed!"
-			ret=1
-		fi
-	fi
+    if ! egencache --update --repo="${repository_name}" --jobs=4 ; then
+        eerror "egencache failed!"
+        ret=1
+    fi
 fi
 
 exit "${ret}"
