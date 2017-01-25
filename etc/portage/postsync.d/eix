@@ -14,5 +14,5 @@ eix-update
 
 if [[ -e $PREVIOUS ]]; then
     ebegin "eix-diff"
-    eix-diff $CURRENT $PREVIOUS
+    eix-diff $PREVIOUS $CURRENT
 fi

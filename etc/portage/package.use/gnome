@@ -3,8 +3,8 @@ gnome-base/gnome-control-center -networkmanager
 gnome-base/gnome-settings-daemon -short-touchpad-timeout
 gnome-base/gvfs mtp
 gnome-extra/evolution-data-server -gnome-online-accounts -google-auth -ldap -weather -gtk
-app-misc/tracker ffmpeg -gstreamer -flac iso mp3 -pdf -vorbis -xml miner-fs -upower nautilus
+app-misc/tracker -ffmpeg gstreamer flac iso mp3 pdf -vorbis -xml miner-fs -upower nautilus
 dev-libs/folks -bluetooth -telepathy -eds
 net-im/empathy -gnome -gnome-online-accounts -map -spell -v4l
 net-im/telepathy-connection-managers -xmpp -irc
-gnome-extra/gnome-builder python
+gnome-base/nautilus -previewer tracker

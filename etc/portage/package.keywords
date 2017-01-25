@@ -1,6 +1,8 @@
 sys-devel/gcc **
+#net-p2p/deluge **
 =x11-themes/evopop-gtk-theme-9999 **
 www-client/chromium -~amd64
 www-plugins/chrome-binary-plugins -~amd64
-# required by ext4-crypt (argument)
+net-fs/samba -~amd64
 =sys-fs/ext4-crypt-9999 **
+=x11-base/xorg-drivers-9999 **

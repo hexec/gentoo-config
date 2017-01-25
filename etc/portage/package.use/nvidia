@@ -1,0 +1,63 @@
+media-libs/libdvdread -css
+x11-libs/wxGTK -gnome
+
+#nvidia-drivers
+>=x11-proto/kbproto-1.0.7 abi_x86_32
+>=x11-proto/xf86bigfontproto-1.2.0-r1 abi_x86_32
+>=x11-libs/libXau-1.0.8 abi_x86_32
+>=dev-libs/libpthread-stubs-0.3-r1 abi_x86_32
+>=x11-proto/xproto-7.0.31 abi_x86_32
+>=x11-libs/libXdmcp-1.1.2-r1 abi_x86_32
+>=x11-proto/xextproto-7.3.0 abi_x86_32
+>=x11-libs/libXext-1.3.3 abi_x86_32
+>=x11-proto/xcb-proto-1.12-r2 abi_x86_32
+>=x11-libs/libX11-1.6.3 abi_x86_32
+>=x11-proto/inputproto-2.3.2 abi_x86_32
+>=x11-libs/libxcb-1.12 abi_x86_32
+
+
+#chromium
+>=media-libs/libvpx-1.6.0-r1 svc
+>=dev-libs/libxml2-2.9.4 icu
+
+#smplayer
+>=dev-qt/qtlockedfile-2.4.1_p20150629 qt5
+>=dev-qt/qtsingleapplication-2.6.1_p20150629 qt5
+
+>=dev-libs/libgit2-0.24.2 threads
+
+=sys-libs/ncurses-5.9-r101 tinfo
+
+# steam
+>=x11-libs/libXxf86vm-1.1.4 abi_x86_32
+>=dev-libs/icu-58.2 abi_x86_32
+>=virtual/opengl-7.0-r1 abi_x86_32
+>=x11-proto/damageproto-1.2.1-r1 abi_x86_32
+>=x11-proto/xf86driproto-2.1.1-r1 abi_x86_32
+>=x11-libs/libXfixes-5.0.3 abi_x86_32
+>=dev-libs/expat-2.2.0-r1 abi_x86_32
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+>=dev-libs/nettle-3.3 abi_x86_32
+>=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
+>=dev-libs/libffi-3.2.1 abi_x86_32
+>=media-libs/mesa-13.0.2 abi_x86_32
+>=x11-proto/glproto-1.4.17-r1 abi_x86_32
+>=x11-libs/libdrm-2.4.74 abi_x86_32
+>=sys-libs/ncurses-6.0-r1 abi_x86_32
+>=x11-proto/xf86vidmodeproto-2.3.1-r1 abi_x86_32
+>=dev-libs/wayland-1.12.0 abi_x86_32
+>=x11-proto/presentproto-1.0 abi_x86_32
+>=dev-libs/libxml2-2.9.4 abi_x86_32
+>=sys-libs/zlib-1.2.8-r1 abi_x86_32
+>=virtual/libffi-3.0.13-r1 abi_x86_32
+>=x11-libs/libvdpau-1.1.1 abi_x86_32
+>=dev-libs/gmp-6.1.2 abi_x86_32
+>=sys-devel/llvm-3.9.1 abi_x86_32
+>=x11-proto/dri2proto-2.8-r1 abi_x86_32
+>=x11-proto/dri3proto-1.0 abi_x86_32
+>=x11-libs/libxshmfence-1.2 abi_x86_32
+
+>=media-video/mpv-0.23.0 libmpv
+>=app-text/poppler-0.50.0 qt5
+>=dev-qt/qtwebkit-5.7.1 printsupport
+>=dev-qt/qtcore-5.7.1 icu

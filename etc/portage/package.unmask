@@ -1,0 +1,5 @@
+=x11-base/xorg-server-1.19.0
+=x11-base/xorg-drivers-1.19.0
+=x11-drivers/nvidia-drivers-375.20
+=sys-devel/gcc-6.3.0
+=net-p2p/deluge-9999

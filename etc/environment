@@ -3,6 +3,3 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
-#__GL_SYNC_DISPLAY_DEVICE="DFP-0"
-#CLUTTER_PAINT=disable-clipped-redraws:disable-culling
-#CLUTTER_VBLANK=True
