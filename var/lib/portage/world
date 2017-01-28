@@ -3,11 +3,11 @@ app-admin/sudo
 app-admin/testdisk
 app-arch/file-roller
 app-arch/unrar
-app-crypt/fcrackzip
 app-crypt/seahorse
 app-editors/gedit
 app-editors/ghex
 app-editors/vim
+app-emulation/virtualbox-bin
 app-misc/fdupes
 app-misc/screen
 app-office/texmaker
@@ -20,7 +20,6 @@ app-shells/zsh
 app-shells/zsh-completions
 app-text/evince
 dev-libs/sway
-dev-python/pillow
 dev-python/prettytable
 dev-util/android-studio
 dev-util/android-tools
@@ -43,16 +42,15 @@ gnome-extra/gnome-utils
 media-gfx/eog
 media-gfx/gimp
 media-plugins/gst-plugins-vpx
-media-sound/pavucontrol
 media-video/vlc
 net-analyzer/ettercap
 net-analyzer/iptraf-ng
-net-analyzer/nikto
 net-analyzer/nmap
 net-analyzer/wireshark
 net-im/telegram-desktop-bin
 net-irc/weechat
 net-libs/nodejs
+net-misc/openvpn
 net-misc/proxychains
 net-misc/tor
 net-p2p/deluge
@@ -74,6 +72,7 @@ sys-devel/gcc:5.4.0
 sys-devel/gdb
 sys-kernel/ck-sources
 sys-kernel/gentoo-sources
+sys-process/htop
 www-client/chromium
 www-client/firefox-bin
 www-servers/lighttpd
