@@ -19,7 +19,6 @@ app-portage/portage-utils
 app-shells/zsh
 app-shells/zsh-completions
 app-text/evince
-dev-libs/sway
 dev-python/prettytable
 dev-util/android-studio
 dev-util/android-tools
@@ -51,14 +50,10 @@ net-im/telegram-desktop-bin
 net-irc/weechat
 net-libs/nodejs
 net-misc/openvpn
-net-misc/proxychains
 net-misc/tor
 net-p2p/deluge
 net-p2p/syncthing
 net-p2p/transmission
-net-proxy/privoxy
-net-proxy/torsocks
-net-proxy/tsocks
 net-wireless/aircrack-ng
 sci-visualization/gnuplot
 sys-apps/gnome-disk-utility
