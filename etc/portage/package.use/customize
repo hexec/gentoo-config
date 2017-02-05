@@ -58,3 +58,6 @@ gnome-base/nautilus -previewer tracker
 dev-util/meld -gnome
 net-libs/webkit-gtk -gles2 egl
 dev-java/swt -gnome
+
+#plasma
+kde-plasma/plasma-desktop legacy-systray

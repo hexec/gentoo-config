@@ -1,2 +1,15 @@
 gnome-base/gnome-light
-
+gnome-base/dconf-editor
+gnome-base/gnome-light
+gnome-extra/chrome-gnome-shell
+gnome-extra/gnome-calculator
+gnome-extra/gnome-shell-extensions
+gnome-extra/gnome-system-monitor
+gnome-extra/gnome-tweak-tool
+gnome-extra/gnome-utils
+sys-apps/gnome-disk-utility
+media-gfx/eog
+app-text/evince
+app-crypt/seahorse
+app-editors/gedit
+app-arch/file-roller

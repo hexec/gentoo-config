@@ -58,14 +58,12 @@ net-wireless/aircrack-ng
 sci-visualization/gnuplot
 sys-apps/gnome-disk-utility
 sys-apps/mlocate
-sys-apps/usbutils
 sys-block/gparted
 sys-block/zram-init
 sys-boot/grub
 sys-boot/os-prober
 sys-devel/gcc:5.4.0
 sys-devel/gdb
-sys-kernel/ck-sources
 sys-kernel/gentoo-sources
 sys-process/htop
 www-client/chromium
