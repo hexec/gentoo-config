@@ -8,3 +8,4 @@ UUID=577a66db-c609-40d9-8a5a-4ef818b57f30 /home/hexvar/Downloads   ext4 defaults
 #/dev/zram0                               swap                     swap  pri=16383         0 0
 #/dev/zram1                               swap                     swap  pri=16383         0 0
 #/dev/zram2                               /tmp                     ext4  defaults          0 0
+/dev/mapper/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc /mnt/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0

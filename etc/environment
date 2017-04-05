@@ -3,3 +3,5 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
+
+export TZ=':/etc/localtime'

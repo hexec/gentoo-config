@@ -1,4 +1,5 @@
 #*/* abi_x86_32
+sys-apps/systemd sysv-utils
 sys-devel/llvm clang gold
 x11-base/xorg-server -kdrive
 app-admin/sudo -sendmail
@@ -14,13 +15,15 @@ net-analyzer/nmap zenmap
 sys-libs/tevent python
 sys-libs/tdb python
 sys-libs/ntdb python
-net-fs/samba winbind client gnutls -fam
+net-fs/samba client winbind system-mitkrb5
 net-p2p/deluge webinterface console
-net-libs/rb_libtorrent python -geoip
+# move net-libs/rb_libtorrent net-libs/libtorrent-rasterbar
+net-libs/libtorrent-rasterbar python -geoip
 www-servers/lighttpd -fam
 sys-libs/libseccomp static-libs
-net-misc/openvpn -lz4
-app-emulation/wine staging opengl
+# move net-misc/openvpn net-vpn/openvpn
+net-vpn/openvpn -lz4
+app-emulation/wine staging opengl abi_x86_32
 app-emulation/qemu spice -pin-upstream-blobs
 app-emulation/libvirt virt-network
 net-misc/spice-gtk -gstreamer python_single_target_python2_7
@@ -28,11 +31,12 @@ dev-libs/boost python
 
 #media
 www-client/chromium proprietary-codecs widevine -custom-cflags
-media-sound/pulseaudio equalizer -gnome
+media-sound/pulseaudio equalizer -gnome native-headset system-wide
 media-video/vlc  matroska ffmpeg pulseaudio libass samba sftp taglib dts aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 -dvd -gnome
 media-libs/gst-plugins-bad -gles2 egl
 media-gfx/inkscape -gnome -spell -latex
 media-gfx/gimp -webkit
+media-tv/kodi -css -udisks -upower -xslt
 
 #tools
 sci-mathematics/octave gnuplot doc -gui -postscript -opengl
@@ -48,7 +52,7 @@ net-misc/dropbox librsync-bundled
 gnome-base/gnome -extras -classic
 gnome-base/gnome-control-center -networkmanager
 gnome-base/gnome-settings-daemon -short-touchpad-timeout
-gnome-base/gvfs mtp
+gnome-base/gvfs -mtp
 gnome-extra/evolution-data-server -gnome-online-accounts -google-auth -ldap -weather -gtk
 app-misc/tracker -ffmpeg gstreamer flac iso mp3 pdf -vorbis -xml miner-fs -upower nautilus
 dev-libs/folks -bluetooth -telepathy -eds
@@ -59,5 +63,4 @@ dev-util/meld -gnome
 net-libs/webkit-gtk -gles2 egl
 dev-java/swt -gnome
 
-#plasma
-kde-plasma/plasma-desktop legacy-systray
+games-emulation/pcsxr -sdl -alsa
