@@ -1,4 +1,6 @@
 # Set deadline scheduler for non-rotational disks
-ACTION=="add|change", KERNEL=="sd[a-z]", TEST!="queue/rotational", ATTR{queue/scheduler}="deadline"
-ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="deadline"
+ACTION=="add|change", KERNEL=="sd[a-z]", TEST!="queue/rotational", ATTR{queue/scheduler}="mq_deadline"
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="mq_deadline"
+ACTION=="add|change", KERNEL=="sd[a-z]", TEST="queue/rotational", ATTR{queue/scheduler}="bfq"
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
 KERNEL=="sd*", ENV{ID_FS_UUID}=="7ebc1c59-846f-49ae-ac7a-f8fa3655680d", ENV{ID_FS_LABEL}="enc", ENV{ID_FS_LABEL_ENC}="enc"

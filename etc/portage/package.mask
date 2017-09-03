@@ -1,7 +1,5 @@
-=dev-libs/boost-1.63.0
 dev-qt/*:4
 virtual/linux-sources::pentoo
-virtual/jdk::pentoo
 gnome-base/gnome-keyring::pentoo
-=app-i18n/ibus-1.5.15
+virtual/jdk::pentoo
 app-crypt/heimdal

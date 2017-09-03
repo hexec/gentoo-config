@@ -5,62 +5,74 @@ x11-base/xorg-server -kdrive
 app-admin/sudo -sendmail
 sys-libs/zlib minizip static-libs
 dev-vcs/git -subversion -perl -gtk
+app-portage/eix sqlite
 
 #network
 net-firewall/ipset -modules
-net-firewall/firewalld -gui python_targets_python2_7# python_targets_python3_4
 net-wireless/aircrack-ng -airdrop-ng
 net-analyzer/wireshark threads gtk3 -gtk2 -qt4
 net-analyzer/nmap zenmap
 sys-libs/tevent python
 sys-libs/tdb python
-sys-libs/ntdb python
 net-fs/samba client winbind system-mitkrb5
 net-p2p/deluge webinterface console
-# move net-libs/rb_libtorrent net-libs/libtorrent-rasterbar
 net-libs/libtorrent-rasterbar python -geoip
 www-servers/lighttpd -fam
 sys-libs/libseccomp static-libs
-# move net-misc/openvpn net-vpn/openvpn
 net-vpn/openvpn -lz4
-app-emulation/wine staging opengl abi_x86_32
-app-emulation/qemu spice -pin-upstream-blobs
-app-emulation/libvirt virt-network
-net-misc/spice-gtk -gstreamer python_single_target_python2_7
-dev-libs/boost python
+sys-fs/dosfstools compat
 
 #media
 www-client/chromium proprietary-codecs widevine -custom-cflags
-media-sound/pulseaudio equalizer -gnome native-headset system-wide
-media-video/vlc  matroska ffmpeg pulseaudio libass samba sftp taglib dts aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 -dvd -gnome
+media-sound/pulseaudio equalizer -gnome -native-headset system-wide
+media-video/vlc a52 lua matroska ffmpeg pulseaudio libass samba sftp taglib dts faad fdk aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 postproc wma-fixed vlm ccda live musepack schroedinger fontconfig -dvd -gnome
 media-libs/gst-plugins-bad -gles2 egl
 media-gfx/inkscape -gnome -spell -latex
 media-gfx/gimp -webkit
 media-tv/kodi -css -udisks -upower -xslt
+media-libs/libdvdread -css
 
 #tools
 sci-mathematics/octave gnuplot doc -gui -postscript -opengl
 app-office/texmaker qt5 -qt4
 app-text/texlive extra -X
 app-text/texlive-core xetex -X
+app-text/mupdf -opengl
 
 #desktop
 dev-libs/sway swaybar swaybg swaymsg systemd swaygrab swaylock
 net-misc/dropbox librsync-bundled
+net-irc/hexchat python
 
 #gnome
 gnome-base/gnome -extras -classic
-gnome-base/gnome-control-center -networkmanager
-gnome-base/gnome-settings-daemon -short-touchpad-timeout
-gnome-base/gvfs -mtp
+gnome-base/gnome-control-center -networkmanager -bluetooth
+gnome-base/gnome-settings-daemon cups -short-touchpad-timeout
+gnome-base/gnome-core-libs cups
+gnome-base/gvfs -http -mtp
 gnome-extra/evolution-data-server -gnome-online-accounts -google-auth -ldap -weather -gtk
 app-misc/tracker -ffmpeg gstreamer flac iso mp3 pdf -vorbis -xml miner-fs -upower nautilus
 dev-libs/folks -bluetooth -telepathy -eds
 net-im/empathy -gnome -gnome-online-accounts -map -spell -v4l
 net-im/telepathy-connection-managers -xmpp -irc
-gnome-base/nautilus -previewer tracker
+gnome-extra/gnome-boxes -smartcard
 dev-util/meld -gnome
 net-libs/webkit-gtk -gles2 egl
 dev-java/swt -gnome
+app-i18n/ibus vala
+x11-libs/wxGTK -gnome
 
-games-emulation/pcsxr -sdl -alsa
+#haskell
+dev-haskell/* doc hoogle hscolour
+app-editors/leksah doc hoogle hscolour
+
+app-editors/neovim python
+
+dev-libs/efl gles -sdl -opengl sound
+
+app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc osmesa
+app-emulation/qemu spice -pin-upstream-blobs
+app-emulation/libvirt virt-network
+app-emulation/spice -lz4
+net-misc/spice-gtk -gstreamer python_single_target_python2_7
+dev-libs/boost python
