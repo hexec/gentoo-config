@@ -7,5 +7,4 @@ www-plugins/chrome-binary-plugins -~amd64
 =sys-fs/ext4-crypt-9999 **
 =dev-libs/sway-9999 **
 =dev-libs/wlc-9999 **
-# required by =x11-wm/mutter-9999 (argument)
 =x11-wm/mutter-9999 **

@@ -5,4 +5,3 @@ app-eselect/eselect-wine
 app-emulation/wine-desktop-common
 =app-emulation/wine-mono-4.7.0
 gnome-extra/budgie-desktop
-=dev-libs/gjs-1.49.90
