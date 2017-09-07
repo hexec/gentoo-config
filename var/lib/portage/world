@@ -1,6 +1,5 @@
 app-admin/localepurge
 app-admin/sudo
-app-admin/sysstat
 app-admin/testdisk
 app-arch/file-roller
 app-arch/unrar
@@ -30,10 +29,8 @@ dev-python/python-telegram-bot
 dev-util/android-sdk-update-manager
 dev-util/android-studio
 dev-util/android-tools
-dev-util/cloc
 dev-util/idea-community
 dev-util/meld
-dev-util/perf
 dev-util/pycharm-community
 dev-util/radare2
 dev-util/strace
@@ -48,7 +45,6 @@ gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 gnome-extra/gnome-utils
-media-gfx/blender
 media-gfx/eog
 media-gfx/gimp
 media-video/baka-mplayer
@@ -80,7 +76,6 @@ sys-devel/gdb
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.9.44
 sys-kernel/gentoo-sources:4.9.47
 sys-process/htop
 www-client/chromium
