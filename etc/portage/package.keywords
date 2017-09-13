@@ -1,10 +1,12 @@
 sys-devel/gcc **
 www-client/chromium -~amd64
 www-plugins/chrome-binary-plugins -~amd64
+=x11-themes/evopop-gtk-theme-9999 **
+=x11-themes/paper-gtk-theme-9999 **
 =gnome-extra/budgie-desktop-9999 **
 =sys-fs/ext4-crypt-9999 **
 =dev-libs/sway-9999 **
 =dev-libs/wlc-9999 **
 =x11-wm/mutter-9999 **
 x11-terms/termite **
-x11-libs/vte-ng **
+=x11-libs/vte-ng-0.48.2.9999 **

@@ -1,0 +1,5 @@
+www-client/chromium ondisk basecflags
+media-libs/alsa-lib basecflags
+sys-apps/baobab basecflags
+media-sound/pulseaudio nolto
+dev-lang/ghc ondisk

@@ -1,7 +1,6 @@
-=sys-devel/gcc-7.1.0
 app-emulation/wine-staging
 app-emulation/wine-gecko
-app-eselect/eselect-wine
 app-emulation/wine-desktop-common
-=app-emulation/wine-mono-4.7.0
+app-emulation/wine-mono
+app-eselect/eselect-wine
 gnome-extra/budgie-desktop

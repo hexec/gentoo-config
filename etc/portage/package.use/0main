@@ -1,8 +1,6 @@
-#*/* abi_x86_32
 sys-apps/systemd sysv-utils
 sys-devel/llvm clang gold
-x11-base/xorg-server -kdrive
-app-admin/sudo -sendmail
+x11-base/xorg-server -ipv6 -kdrive
 sys-libs/zlib minizip static-libs
 dev-vcs/git -subversion -perl -gtk
 app-portage/eix sqlite
@@ -14,10 +12,10 @@ net-analyzer/wireshark threads gtk3 -gtk2 -qt4
 net-analyzer/nmap zenmap
 sys-libs/tevent python
 sys-libs/tdb python
+sys-libs/ldb ldap
 net-fs/samba client winbind system-mitkrb5
 net-p2p/deluge webinterface console
 net-libs/libtorrent-rasterbar python -geoip
-www-servers/lighttpd -fam
 sys-libs/libseccomp static-libs
 net-vpn/openvpn -lz4
 sys-fs/dosfstools compat
@@ -25,12 +23,15 @@ sys-fs/dosfstools compat
 #media
 www-client/chromium proprietary-codecs widevine -custom-cflags
 media-sound/pulseaudio equalizer -gnome -native-headset system-wide
-media-video/vlc a52 lua matroska ffmpeg pulseaudio libass samba sftp taglib dts faad fdk aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 postproc wma-fixed vlm ccda live musepack schroedinger fontconfig -dvd -gnome
+media-video/vlc a52 lua matroska ffmpeg pulseaudio libass samba -sftp taglib dts faad fdk aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 postproc wma-fixed vlm ccda live musepack schroedinger fontconfig -dvd -gnome
 media-libs/gst-plugins-bad -gles2 egl
 media-gfx/inkscape -gnome -spell -latex
 media-gfx/gimp -webkit
+media-libs/libmypaint gegl
 media-tv/kodi -css -udisks -upower -xslt
 media-libs/libdvdread -css
+media-video/mpv libmpv
+app-text/poppler qt5
 
 #tools
 sci-mathematics/octave gnuplot doc -gui -postscript -opengl
@@ -41,15 +42,14 @@ app-text/mupdf -opengl
 
 #desktop
 dev-libs/sway swaybar swaybg swaymsg systemd swaygrab swaylock
-net-misc/dropbox librsync-bundled
-net-irc/hexchat python
 
 #gnome
+x11-libs/gtk+:3 cups
 gnome-base/gnome -extras -classic
 gnome-base/gnome-control-center -networkmanager -bluetooth
 gnome-base/gnome-settings-daemon cups -short-touchpad-timeout
 gnome-base/gnome-core-libs cups
-gnome-base/gvfs -http -mtp
+gnome-base/gvfs http -mtp
 gnome-extra/evolution-data-server -gnome-online-accounts -google-auth -ldap -weather -gtk
 app-misc/tracker -ffmpeg gstreamer flac iso mp3 pdf -vorbis -xml miner-fs -upower nautilus
 dev-libs/folks -bluetooth -telepathy -eds
@@ -61,18 +61,13 @@ net-libs/webkit-gtk -gles2 egl
 dev-java/swt -gnome
 app-i18n/ibus vala
 x11-libs/wxGTK -gnome
+app-text/ghostscript-gpl cups
+media-libs/libcanberra -sound
 
-#haskell
-dev-haskell/* doc hoogle hscolour
-app-editors/leksah doc hoogle hscolour
-
+app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc
 app-editors/neovim python
-
-dev-libs/efl gles -sdl -opengl sound
-
-app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc osmesa
+dev-libs/boost python
 app-emulation/qemu spice -pin-upstream-blobs
 app-emulation/libvirt virt-network
 app-emulation/spice -lz4
-net-misc/spice-gtk -gstreamer python_single_target_python2_7
-dev-libs/boost python
+net-misc/spice-gtk -gstreamer

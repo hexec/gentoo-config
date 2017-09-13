@@ -1,0 +1,17 @@
+dev-qt/qtwebkit printsupport
+dev-qt/qtcore icu
+media-libs/libsdl2 gles
+dev-libs/zziplib -sdl
+dev-libs/libpcre pcre16
+app-text/xmlto -latex
+net-misc/iputils -caps -filecaps
+dev-libs/boehm-gc threads
+media-libs/libvpx svc postproc
+dev-libs/libxml2 icu
+dev-qt/qtlockedfile qt5
+dev-qt/qtsingleapplication qt5
+dev-libs/libgit2 threads
+media-libs/gd fontconfig
+dev-python/twisted conch
+dev-lang/perl ithreads
+www-client/w3m imlib

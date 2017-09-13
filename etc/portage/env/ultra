@@ -1,4 +1,0 @@
-CFLAGS="-Ofast -march=native -mtune=native -pipe"
-CXXFLAGS="${CFLAGS}"
-#LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,--enable-new-dtags -Wl,--hash-style=gnu"
-LDFLAGS="-Wl,--hash-style=gnu,--as-needed,-O1"
