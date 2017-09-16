@@ -1,4 +1,4 @@
-UUID=7037-9B8E /boot/                    vfat defaults,noauto,noatime,discard     0 2
+UUID=7037-9B8E                            /boot/                   vfat defaults,noauto,noatime,discard     0 2
 UUID=47881a6b-6bc2-4c9c-b807-4b8fcee2a686 /                        ext4 defaults,discard,noatime   0 1
 UUID=d12a7416-f2eb-4b45-b6d0-eb5c87f2bf0b none                     swap sw,nofail          0 0
 UUID=d8782379-42b1-49ca-9f5f-53dcd64e95d5 /mnt/livingdead          auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0

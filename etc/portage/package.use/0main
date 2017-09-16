@@ -1,24 +1,32 @@
 sys-apps/systemd sysv-utils
 sys-devel/llvm clang gold
 x11-base/xorg-server -ipv6 -kdrive
-sys-libs/zlib minizip static-libs
-dev-vcs/git -subversion -perl -gtk
 app-portage/eix sqlite
+sys-fs/dosfstools compat
+dev-vcs/git -subversion -perl -gtk
+sys-libs/zlib minizip static-libs
 
 #network
+net-fs/samba client winbind system-mitkrb5 -cups
+net-misc/openssh -X
 net-firewall/ipset -modules
 net-wireless/aircrack-ng -airdrop-ng
 net-analyzer/wireshark threads gtk3 -gtk2 -qt4
 net-analyzer/nmap zenmap
+net-vpn/openvpn -lz4
+net-p2p/deluge webinterface console
+net-libs/libtorrent-rasterbar python -geoip
 sys-libs/tevent python
 sys-libs/tdb python
 sys-libs/ldb ldap
-net-fs/samba client winbind system-mitkrb5
-net-p2p/deluge webinterface console
-net-libs/libtorrent-rasterbar python -geoip
 sys-libs/libseccomp static-libs
-net-vpn/openvpn -lz4
-sys-fs/dosfstools compat
+
+#virt
+app-emulation/qemu spice -pin-upstream-blobs
+app-emulation/libvirt virt-network
+app-emulation/spice -lz4
+net-misc/spice-gtk -gstreamer
+app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc
 
 #media
 www-client/chromium proprietary-codecs widevine -custom-cflags
@@ -64,10 +72,5 @@ x11-libs/wxGTK -gnome
 app-text/ghostscript-gpl cups
 media-libs/libcanberra -sound
 
-app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc
 app-editors/neovim python
 dev-libs/boost python
-app-emulation/qemu spice -pin-upstream-blobs
-app-emulation/libvirt virt-network
-app-emulation/spice -lz4
-net-misc/spice-gtk -gstreamer

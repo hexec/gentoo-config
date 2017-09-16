@@ -37,3 +37,5 @@ dev-python/pycparser py27
 dev-python/ply py27
 dev-python/six py27
 dev-python/typing py27
+dev-python/markupsafe py27
+dev-libs/libdbusmenu py27

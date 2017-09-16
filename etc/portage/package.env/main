@@ -1,3 +1,4 @@
+sys-libs/glibc basecflags
 www-client/chromium ondisk basecflags
 media-libs/alsa-lib basecflags
 sys-apps/baobab basecflags
