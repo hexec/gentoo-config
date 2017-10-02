@@ -11,3 +11,4 @@ UUID=8223e0ca-3721-4e64-b881-5b21a82f8191 /home/hexec/Downloads   ext4 defaults,
 /dev/mapper/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc /mnt/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
 /dev/disk/by-uuid/5eb60c7e-5ccc-43e8-960f-44a7c3ec7e6e /mnt/arch auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
 /dev/disk/by-uuid/79fcab05-4f73-4374-9feb-d291e7b880b7 /mnt/79fcab05-4f73-4374-9feb-d291e7b880b7 auto nosuid,nodev,nofail,noauto,x-gvfs-show 0 0
+/dev/disk/by-uuid/577a66db-c609-40d9-8a5a-4ef818b57f30 /mnt/data auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0

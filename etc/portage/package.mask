@@ -1,3 +1,4 @@
+*/*::pentoo
 dev-qt/*:4
 virtual/linux-sources::pentoo
 gnome-base/gnome-keyring::pentoo

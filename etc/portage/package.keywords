@@ -9,4 +9,3 @@ www-plugins/chrome-binary-plugins -~amd64
 =dev-libs/wlc-9999 **
 x11-terms/termite **
 =x11-libs/vte-ng-0.48.2.9999 **
-#=x11-wm/mutter-9999 **

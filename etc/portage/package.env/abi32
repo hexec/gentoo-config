@@ -1,3 +1,4 @@
+media-plugins/gst-plugins-flac abi32
 app-accessibility/at-spi2-atk abi32
 app-accessibility/at-spi2-core abi32
 app-arch/bzip2 abi32

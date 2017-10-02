@@ -24,14 +24,15 @@ sys-libs/libseccomp static-libs
 #virt
 app-emulation/qemu spice -pin-upstream-blobs
 app-emulation/libvirt virt-network
+sys-firmware/ipxe -usb
 app-emulation/spice -lz4
 net-misc/spice-gtk -gstreamer
 app-emulation/wine-staging staging opengl abi_x86_32 d3d9 mono s3tc
 
 #media
-www-client/chromium proprietary-codecs widevine -custom-cflags
+www-client/chromium proprietary-codecs widevine -system-icu -custom-cflags
 media-sound/pulseaudio equalizer -gnome -native-headset system-wide
-media-video/vlc a52 lua matroska ffmpeg pulseaudio libass samba -sftp taglib dts faad fdk aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 postproc wma-fixed vlm ccda live musepack schroedinger fontconfig -dvd -gnome
+media-video/vlc tryetype a52 lua matroska ffmpeg pulseaudio libass samba -sftp taglib dts faad fdk aac oggvorbis freetype xv svga stream flac mp3 ogg theora twolame vpx x264 x265 qt5 postproc wma-fixed vlm ccda live musepack schroedinger fontconfig -dvd -gnome
 media-libs/gst-plugins-bad -gles2 egl
 media-gfx/inkscape -gnome -spell -latex
 media-gfx/gimp -webkit
@@ -72,5 +73,6 @@ x11-libs/wxGTK -gnome
 app-text/ghostscript-gpl cups
 media-libs/libcanberra -sound
 
+app-editors/emacs -X -gtk -gtk3 -gif -jpeg -png -svg -tiff -xpm -alsa
 app-editors/neovim python
 dev-libs/boost python
