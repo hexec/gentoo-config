@@ -23,6 +23,7 @@ etc/samba/*
 !etc/samba/smb.conf.bak
 
 !etc/portage/
+etc/portage/repo.postsync.d/example
 etc/portage/savedconfig/
 
 !etc/udev/
@@ -46,3 +47,4 @@ var/lib/*
 !var/lib/portage
 var/lib/portage/*
 !var/lib/portage/world
+!var/lib/AccountsService

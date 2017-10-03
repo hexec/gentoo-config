@@ -1,3 +1,5 @@
+dev-python/ovs py27
+net-misc/openvswitch py27
 media-video/mpv py27
 #app-emulation/qemu py27
 #app-emulation/virtualbox-bin py27

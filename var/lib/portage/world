@@ -4,7 +4,6 @@ app-admin/testdisk
 app-arch/comp-meta
 app-editors/ghex
 app-editors/neovim
-app-emulation/lxc-gentoo
 app-emulation/lxd
 app-emulation/qemu
 app-emulation/wine-staging
@@ -41,6 +40,7 @@ net-firewall/firehol
 net-fs/samba
 net-im/telegram-desktop-bin
 net-irc/weechat
+net-misc/iperf
 net-p2p/syncthing
 net-p2p/transmission
 net-vpn/strongswan
@@ -54,6 +54,7 @@ sys-boot/os-prober
 sys-devel/clang
 sys-devel/gcc:6.4.0
 sys-kernel/gentoo-sources
+sys-kernel/gentoo-sources:4.9.52
 sys-process/htop
 www-client/chromium
 www-client/firefox-bin
