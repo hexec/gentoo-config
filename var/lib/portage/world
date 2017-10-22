@@ -14,14 +14,16 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/zsh
 app-shells/zsh-completions
+app-text/pelican
+app-text/tree
 dev-java/oracle-jdk-bin
-dev-python/fetcht
+dev-lang/rust
 dev-python/git-python
 dev-python/python-telegram-bot
 dev-python/pywal
-dev-ruby/bundler
 dev-util/android-studio
 dev-util/android-tools
+dev-util/cloc
 dev-util/idea-community
 dev-util/meld
 dev-util/pycharm-community
@@ -34,6 +36,7 @@ gnome-base/gnome-meta
 media-gfx/gimp
 media-video/gnome-mpv
 media-video/vlc
+net-analyzer/fail2ban
 net-analyzer/nmap
 net-analyzer/wireshark
 net-firewall/firehol
@@ -43,9 +46,9 @@ net-irc/weechat
 net-misc/iperf
 net-p2p/syncthing
 net-p2p/transmission
-net-vpn/strongswan
 net-vpn/wireguard
 sci-visualization/gnuplot
+sys-apps/ethtool
 sys-apps/firejail
 sys-apps/mlocate
 sys-block/zram-init
@@ -54,7 +57,6 @@ sys-boot/os-prober
 sys-devel/clang
 sys-devel/gcc:6.4.0
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:4.9.52
 sys-process/htop
 www-client/chromium
 www-client/firefox-bin

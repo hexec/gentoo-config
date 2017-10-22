@@ -1,5 +1,6 @@
 sys-devel/gcc ondisk
 dev-lang/ghc ondisk
+dev-lang/rust ondisk
 sys-libs/glibc basecflags
 www-client/chromium ondisk basecflags
 media-libs/alsa-lib basecflags

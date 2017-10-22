@@ -1,7 +1,6 @@
-ACTION=="add", SUBSYSTEM=="net", KERNEL=="en*", RUN+="/bin/ip link set %k up"
-#ACTION=="add", SUBSYSTEM=="net", KERNEL=="eth0", RUN+="/bin/ip link set %k txqueuelen 10000"
-ACTION=="add", SUBSYSTEM=="net", KERNEL=="en*", ATTR{tx_queue_len}="10000"
-ACTION=="add", SUBSYSTEM=="net", KERNEL=="en*", RUN+="/usr/sbin/ethtool -s %k wol g"
-ACTION=="add", SUBSYSTEM=="net", KERNEL=="en*", RUN+="/sbin/tc qdisc add dev %k root fq"
+#ACTION=="add", SUBSYSTEM=="net", KERNEL=="e*", RUN+="/bin/ip link set %k up"
+ACTION=="add", SUBSYSTEM=="net", KERNEL=="e*", ATTR{tx_queue_len}="10000"
+ACTION=="add", SUBSYSTEM=="net", KERNEL=="e*", RUN+="/usr/sbin/ethtool -s %k wol g"
+#ACTION=="add", SUBSYSTEM=="net", KERNEL=="e*", RUN+="/sbin/tc qdisc add dev %k root fq"
 
 

@@ -2,6 +2,7 @@
 
 !.gitignore
 !chroot.sh
+!grub.sh
 
 !etc/
 etc/*
@@ -48,3 +49,4 @@ var/lib/*
 var/lib/portage/*
 !var/lib/portage/world
 !var/lib/AccountsService
+var/lib/AccountsService/users/gdm
