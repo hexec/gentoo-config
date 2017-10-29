@@ -19,6 +19,7 @@ app-text/tree
 dev-java/oracle-jdk-bin
 dev-lang/rust
 dev-python/git-python
+dev-python/prettytable
 dev-python/python-telegram-bot
 dev-python/pywal
 dev-util/android-studio
@@ -30,7 +31,6 @@ dev-util/pycharm-community
 dev-util/radare2
 dev-util/strace
 dev-util/valgrind
-dev-vcs/gitg
 games-util/steam-meta
 gnome-base/gnome-meta
 media-gfx/gimp
@@ -51,6 +51,7 @@ sci-visualization/gnuplot
 sys-apps/ethtool
 sys-apps/firejail
 sys-apps/mlocate
+sys-apps/smartmontools
 sys-block/zram-init
 sys-boot/grub
 sys-boot/os-prober

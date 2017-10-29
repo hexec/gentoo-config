@@ -1,14 +1,7 @@
-UUID=7037-9B8E                            /boot/                   vfat defaults,noauto,noatime,discard     0 2
-UUID=47881a6b-6bc2-4c9c-b807-4b8fcee2a686 /                        ext4 defaults,discard,noatime   0 1
-UUID=d12a7416-f2eb-4b45-b6d0-eb5c87f2bf0b none                     swap sw,nofail          0 0
-UUID=d8782379-42b1-49ca-9f5f-53dcd64e95d5 /mnt/livingdead          auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
-UUID=a6122e7e-34ef-4a33-86bf-c80f893ceedc /mnt/enc                 auto nosuid,nodev,nofail,noauto 0 0
-UUID=8223e0ca-3721-4e64-b881-5b21a82f8191 /home/hexec/Downloads   ext4 defaults,nofail,x-gvfs-show 0 1
-#shm                                      /dev/shm                 tmpfs nodev,nosuid,noexec
-#/dev/zram0                               swap                     swap  pri=16383         0 0
-#/dev/zram1                               swap                     swap  pri=16383         0 0
-#/dev/zram2                               /tmp                     ext4  defaults          0 0
-/dev/mapper/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc /mnt/luks-a6122e7e-34ef-4a33-86bf-c80f893ceedc auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
-/dev/disk/by-uuid/5eb60c7e-5ccc-43e8-960f-44a7c3ec7e6e /mnt/arch auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
-/dev/disk/by-uuid/79fcab05-4f73-4374-9feb-d291e7b880b7 /mnt/79fcab05-4f73-4374-9feb-d291e7b880b7 auto nosuid,nodev,nofail,noauto,x-gvfs-show 0 0
-/dev/disk/by-uuid/577a66db-c609-40d9-8a5a-4ef818b57f30 /mnt/data auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
+UUID=7037-9B8E /boot/ vfat defaults,noauto,noatime,discard     0 2
+UUID=47881a6b-6bc2-4c9c-b807-4b8fcee2a686 / ext4 defaults,discard,noatime   0 1
+UUID=d8782379-42b1-49ca-9f5f-53dcd64e95d5 /mnt/livingdead auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
+UUID=8223e0ca-3721-4e64-b881-5b21a82f8191 /home/hexec/downloads ext4 defaults,nofail,x-gvfs-show 0 1
+UUID=79fcab05-4f73-4374-9feb-d291e7b880b7 /mnt/arch auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
+UUID=577a66db-c609-40d9-8a5a-4ef818b57f30 /mnt/data auto nosuid,nodev,nofail,x-gvfs-show,noauto 0 0
+#UUID=d12a7416-f2eb-4b45-b6d0-eb5c87f2bf0b none swap sw,nofail          0 0

@@ -3,4 +3,7 @@ ACTION=="add|change", KERNEL=="sd[a-z]", TEST!="queue/rotational", ATTR{queue/sc
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="mq_deadline"
 ACTION=="add|change", KERNEL=="sd[a-z]", TEST="queue/rotational", ATTR{queue/scheduler}="bfq"
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
-KERNEL=="sd*", ENV{ID_FS_UUID}=="7ebc1c59-846f-49ae-ac7a-f8fa3655680d", ENV{ID_FS_LABEL}="enc", ENV{ID_FS_LABEL_ENC}="enc"
+
+#ACTION=="add|change", KERNEL=="sd[a-z]", TEST!="queue/rotational", ATTR{queue/scheduler}="deadline"
+#ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="deadline"
+KERNEL=="sd*", ENV{ID_FS_UUID}=="1d213de3-e112-4d52-80b6-1ee96f167c2b", ENV{ID_FS_LABEL}="enc", ENV{ID_FS_LABEL_ENC}="enc"

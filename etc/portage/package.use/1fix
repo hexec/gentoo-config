@@ -22,3 +22,8 @@ dev-vcs/git -gpg
 >=media-plugins/gst-plugins-flac-1.12.2 abi_x86_32
 >=sys-libs/ldb-1.2.2 python_targets_python2_7
 >=dev-python/lxml-3.8.0 python_targets_python2_7
+# required by media-plugins/gst-plugins-meta-1.12.3::gentoo[mp3]
+# required by app-emulation/wine-staging-2.18::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-mpg123-1.12.3 abi_x86_32

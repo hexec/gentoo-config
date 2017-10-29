@@ -1,14 +1,13 @@
-#'grub2-mkconfig -o /boot/grub2/grub.cfg'
 GRUB_DISTRIBUTOR="Gentoo"
 GRUB_DEFAULT=saved
 GRUB_HIDDEN_TIMEOUT=0
 GRUB_HIDDEN_TIMEOUT_QUIET=true
 GRUB_TIMEOUT=1
 GRUB_CMDLINE_LINUX_DEFAULT=""
-GRUB_CMDLINE_LINUX="rootfstype=ext4 net.ifnames=0 zram.num_devices=4 init=/lib/systemd/systemd nvidia-drm.modeset=1"
-GRUB_GFXMODE=1280x1024,auto
+GRUB_CMDLINE_LINUX="rootfstype=ext4 net.ifnames=0 zram.num_devices=4 init=/lib/systemd/systemd"
+#GRUB_GFXMODE=1280x1024,auto
 #GRUB_PRELOAD_MODULES="parg_gpt part_msdos luks cryptodisk"
-GRUB_ENABLE_CRYPTODISK=y
+#GRUB_ENABLE_CRYPTODISK=y
 #GRUB_GFXPAYLOAD_LINUX=keep
 #GRUB_BACKGROUND="/boot/grub2/bg.png"
 #GRUB_FONT=/boot/grub2/fonts/DroidSansMonoSlashed20.pcf
